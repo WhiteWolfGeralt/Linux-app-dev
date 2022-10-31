@@ -1,0 +1,21 @@
+set pagination off
+set $counter=1
+b 6
+command 1
+	if $counter >= 28 && $counter <= 35
+		echo @@@
+		p M
+		echo @@@
+		p N
+		echo @@@
+		p S
+		echo @@@
+		p i
+		echo @@@-------
+	end
+	set $counter++
+	c
+end
+r
+q
+

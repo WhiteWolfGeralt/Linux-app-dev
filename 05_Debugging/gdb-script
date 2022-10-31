@@ -1,0 +1,17 @@
+b 6
+command
+	if i % 5 == 0
+		echo @@@
+		p M
+		echo @@@
+		p N
+		echo @@@
+		p S
+		echo @@@
+		p i
+		echo @@@-------
+	end
+	c
+end
+r
+
